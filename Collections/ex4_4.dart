@@ -25,6 +25,7 @@ void main() {
     sum = sum / ratings.length;
     restaurant['avgRating'] = sum.toStringAsFixed(2);
     //MEMO: toStringAsFixed(소수점갯수) 하면 소수점갯수만큼 만 소수점 표기하고 반올림 해준다.
-    print(restaurant['avgRating']);
+    print(
+        '${restaurant['name']}s average ratings : ${restaurant['avgRating']}');
   }
 }

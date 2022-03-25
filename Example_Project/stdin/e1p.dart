@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  print("Yout name :");
+  print("Your name :");
   final name = stdin.readLineSync();
   //String name = stdin.readLineSync()!; 와 같다.
   print('Your name : $name');

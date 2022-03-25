@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'dart:math';
 
+//MEMO: termial 무한 반복중일떄 ctrl+C하면 무한 반복 빠져나온다.
 enum Move { rock, paper, scissors }
 void main() {
   final rng = Random();
